@@ -3,15 +3,9 @@
   "version": "1.0.0",
   "description": "初始化开发react组件",
   "main": "index.js",
-  "files": [
-    "build",
-    "lib",
-    "example",
-    "src"
-  ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kk2n/cmp.git"
   },
   "homepage": "",
   "scripts": {
