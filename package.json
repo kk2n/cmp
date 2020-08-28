@@ -2,7 +2,7 @@
   "name": "ymcmp",
   "version": "0.0.8",
   "description": "初始化开发react组件",
-  "main": "lib/index.js",
+  "main": "index.js",
   "files": [
     "build",
     "lib",
