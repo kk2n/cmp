@@ -1,0 +1,81 @@
+{
+  "name": "ymcmp",
+  "version": "0.0.8",
+  "description": "初始化开发react组件",
+  "main": "lib/index.js",
+  "files": [
+    "build",
+    "lib",
+    "example",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --mode=development --config webpack.dev.config.js --port 3000 --hot",
+    "build": "webpack --color --mode=production --config webpack.pub.config.js"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "react-ymCmp"
+  ],
+  "author": "lk",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "antd": "^3.20.6",
+    "axios": "^0.19.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "expose-loader": "^0.7.5",
+    "js-cookie": "^2.2.1",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.6.2",
+    "qs": "^6.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-actions": "^2.6.5",
+    "redux-devtools-extension": "^2.13.8",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.10.3",
+    "@babel/plugin-proposal-decorators": "7.10.3",
+    "@babel/plugin-transform-runtime": "7.10.3",
+    "@babel/runtime": "7.10.3",
+    "babel-eslint": "^8.2.5",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.6.2",
+    "babel-preset-reactenv": "^0.2.13",
+    "bundle-loader": "^0.5.6",
+    "css-loader": "^0.28.11",
+    "cssnano": "^4.1.10",
+    "eslint": "^5.11.1",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-react": "^7.12.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^2.1.5",
+    "prettier": "^1.19.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "1.2.1",
+    "url-loader": "4.1.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
