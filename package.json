@@ -1,6 +1,6 @@
 {
   "name": "ymcmp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react组件库和常用的方法",
   "main": "index.js",
   "repository": {
